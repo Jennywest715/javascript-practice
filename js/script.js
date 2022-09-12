@@ -21,9 +21,9 @@ const heading1 = document.createElement("h1"); // <h1></h1> can do ("p") for par
 heading1.innerText = "Welcome"; //<h1>Welcome</h1>
 
 //how to style with JS
-heading1.style = "color:dodger blue; font-size:20px;"
+heading1.style = "color:blue; font-size:20px;"
 //or
-heading1.style.color = "dodger blue";
+heading1.style.color = "blue";
 heading1.style.fontSize = "20px";   //PAY ATTENTION TO THE LETTERING fontSize not font-size
 
 
