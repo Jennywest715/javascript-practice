@@ -16,7 +16,7 @@ const person = {
 person.company = "bitwise";
 person.position = "president";
 
-
+//HOW TO CREATE AN ELEMENT!!! vvv
 const heading1 = document.createElement("h1"); // <h1></h1> can do ("p") for paragraph
 heading1.innerText = "Welcome"; //<h1>Welcome</h1>
 
@@ -30,6 +30,12 @@ heading1.style.fontSize = "20px";   //PAY ATTENTION TO THE LETTERING fontSize no
 //HOW TO USE CLASSES CREATE CLASS
 heading1.className = "giant";
 
+
+//CREATING ELEMENTS - document.createElement()
+// HOW TO FIND ELEMENTS
+//document.getElementById()
+//document.querySelector("looks for the first element/class with it's name") like css
+//document.querySelectorAll("Will go to ALL of the elements/classes with the same name")
 
 //HOW TO USE ID CREATE ID IN THE HTML THEN YOU CAN DO THIS
 const fruit = document.body.fruitList;
